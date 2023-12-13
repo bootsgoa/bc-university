@@ -15,7 +15,7 @@ jobs:
        with:
          solution-file: out/ADOSourceSolution.zip
          solution-folder: contents
-         solution-type: Both
+         solution-type: Unmanaged
      - uses: actions/upload-artifact@v2
        with:
          name: packed-solution
